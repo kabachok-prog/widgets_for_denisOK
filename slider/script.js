@@ -5,17 +5,17 @@ const swiper = new Swiper(".swiper", {
     rotate: false,
     perSlideOffset: 80,
   },
-
   autoplay: true,
   autoplay: {
     delay: 1000,
     disableOnInteraction: false,
   },
-
   navigation: {
     nextEl: '.button-next',
     prevEl: '.button-prev'
   },
-
+  touch: {
+    enabled: true
+  },
   speed: 1000,
 });
